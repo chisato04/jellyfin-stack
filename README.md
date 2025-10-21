@@ -17,9 +17,9 @@ sudo docker-compose stop
 sudo docker-compose rm 
 ```
 
-Chage ownership of the folder specified in .env file (by default its /media/Arr) and 
+Chage ownership of the folder specified in .env file (by default its /mnt/media/Arr) and 
 run 'chown' command with the user id and group id configured in that .env file:<br />
-`chown -R 1000:1000 /media/Arr`<br />
+`chown -R 1000:1000 /mnt/media/Arr`<br />
 Now you can log on and work with all services.<br />
 
 First configure the qBittorrent service because its using temporary password only:<br />
