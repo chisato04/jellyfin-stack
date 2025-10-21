@@ -8,6 +8,12 @@ https://github.com/automation-avenue/youtube-39-arr-apps-1-click <br />
 cd /home/marek/Downloads <br />
 unzip youtube-39-arr-apps-1-click <br />
 
+### Initialize directory for Homarr
+```
+mkdir -p /mnt/media/Arr/Homarr/appdata
+sudo chown -R 1000:1000 /mnt/media/Arr/Homarr/appdata
+```
+
 ### Installation process:
 Make sure you are in the same folder as docker-compose.yml and .env file, then 'up' to deploy, 'stop' and 'rm' to stop and remove the stack  :<br />
 
