@@ -1,13 +1,3 @@
-### Useful Links:
-- [Servarr Wiki](https://wiki.servarr.com/)
-- [Trash Guides](https://trash-guides.info/)
-- [Ascii ART](https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow)
-
-### Download and unzip Files from GitHub:
-https://github.com/automation-avenue/youtube-39-arr-apps-1-click <br />
-cd /home/marek/Downloads <br />
-unzip youtube-39-arr-apps-1-click <br />
-
 ### Initialize directory for Homarr
 ```
 mkdir -p /mnt/media/Arr/Homarr/appdata
